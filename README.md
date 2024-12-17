@@ -55,3 +55,24 @@ The dataset consists of labeled images of football players. Each folder within t
    ```bash
    git clone https://github.com/dunchutt/FootballerClassifier.git
    cd FootballerClassifier
+2. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+3. Place your labeled image dataset in the image_dataset folder.
+
+## Usage
+
+-**Run the training script:**
+python train_model.py
+-**Evaluate the model:**
+python evaluate_model.py
+-**Use the classifier:**
+python classify_image.py --image path/to/image.jpg
+
+## Results
+
+The system achieves high accuracy in recognizing player images.
+
+## Acknowledgments
+
+Special thanks to the open-source ML and Python community for libraries like OpenCV, Scikit-Learn, and TensorFlow/Keras.
