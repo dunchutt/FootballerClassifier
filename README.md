@@ -64,8 +64,10 @@ The dataset consists of labeled images of football players. Each folder within t
 
 -**Run the training script:**
 python train_model.py
+
 -**Evaluate the model:**
 python evaluate_model.py
+
 -**Use the classifier:**
 python classify_image.py --image path/to/image.jpg
 
